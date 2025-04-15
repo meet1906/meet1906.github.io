@@ -21,9 +21,23 @@ export default function Experience() {
               <p className="text-gray-600">Artifik AS</p>
               <p className="text-sm text-gray-500">Jan 2021 - Present</p>
               <p className="mt-4 text-gray-700">
-              As a part of comono ecosystem, I serve as project manager for Artifik which is a next generation KGV and KAV platform developed to help procurers and bidders buy and bid better 
-              From day one, I’ve been in the trenches with Artifik — watching it evolve from a barebones page to a powerhouse platform revolutionizing knowledge governance (KGV & KAV) in Norway. Now serving 1,000+ organizations and clocking 1M+ NOK in ARR, Artifik is on fire — started as a web developer intern on the project , paved my path to project management and scrum and now alongside handling the releases , I’m the glue between tech and business, ensuring every sprint moves the needle.
-          </p>
+              What started as a web dev internship turned into a full-blown journey through the trenches of product building. At Artifik, a next-gen KGV (Knowledge Governance) & KAV (Knowledge Acquisition & Validation) platform based in Norway, I’ve been part of the story since day one — and what a ride it’s been.
+
+Artifik has grown from a single-page prototype to a game-changing solution now used by 1,000+ organizations, generating 1M+ NOK in ARR, and powering better procurement decisions across the country.
+
+My role & impact:
+
+🛠 Built from the Ground Up: From early dev work to now leading as Project Manager, I’ve been hands-on through 42 production releases, 55 sprints, and 150 total builds — steering the ship through v0 to v3.03.
+
+📦 500+ Features Shipped: Drove delivery of over 500 features, 1100+ bug fixes, and 2,000+ completed tasks over 2.5 years.
+
+🔁 Scrum & Delivery Lead: Managed product planning, handled sprint logistics, and ensured smooth, high-quality rollouts — with an eye always on impact.
+
+🤝 Bridge Between Tech & Business: I’m the go-to link between devs, designers, and stakeholders — translating product vision into deliverables that move the needle.
+
+Artifik isn’t just a job — it’s been a startup inside a startup. The growth has been wild, the learnings immense, and we’re just getting started.
+
+</p>
             </div>
   
             {/* Prevale Compliance Tech Pvt Ltd */}
