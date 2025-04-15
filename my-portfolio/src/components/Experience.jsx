@@ -46,13 +46,36 @@ Artifik isn’t just a job — it’s been a startup inside a startup. The growt
               <p className="text-gray-600">Prevale Compliance Tech Pvt Ltd</p>
               <p className="text-sm text-gray-500">Sep 2021 - April 2025</p>
               <p className="mt-4 text-gray-700">
-              A wild ride of 4 versions, 15 clients, and countless lessons. At Prevale, I was a full-stack generalist — architecting tech, managing finance, navigating legal frameworks, and even steering marketing campaigns. 
+              4 versions. 15 clients. Countless lessons.
+Prevale was my crash course in everything — tech, business, finance, legal, marketing, HR. As co-founder, I wore every hat in the startup wardrobe and built alongside a team of hustlers and dreamers. Our mission? To reimagine compliance and accounting for Indian businesses.
 
-We aimed to reimagine compliance and accounting for Indian businesses. Though we eventually sunset the product, the journey was a masterclass in resilience, iteration, and bold execution. I wrote about it all here. 
+From a coffee shop epiphany to a full-stack SaaS product, I helped lead Prevale through:
 
-Spoiler: it’s raw, real, and full of gold.
-A wild ride of 4 versions, 15 clients, and countless lessons. At Prevale, I was a full-stack generalist — architecting tech, managing finance, navigating legal frameworks, and even steering marketing campaigns. We aimed to reimagine compliance and accounting for Indian businesses. Though we eventually sunset the product, the journey was a masterclass in resilience, iteration, and bold execution. I wrote about it all here. Spoiler: it’s raw, real, and full of gold.
-</p>
+V1: A quick-fire tool to export client data into Tally — functional, fast, and brutally ignored by the market.
+
+V2: A task-based tri-user workflow system — clever but technically rigid. A system too early for its own good.
+
+V3: A dynamic, customizable productivity engine that accountants actually loved. Events, clients, traction — it was real.
+
+V4: The hard truth — scaling both sides of a two-sided market isn't just hard; it's often unsustainable.
+
+We tried, failed, pivoted, scaled, rebuilt — and ultimately chose to sunset it in May 2025. Not out of defeat, but with clarity and grace.
+
+📌 Highlights:
+
+Built 4 major versions, shipping over 500 features, 1000+ tasks, and supporting 15 active clients
+
+Led product strategy, tech architecture, and business ops end-to-end
+
+Grew from zero to a real brand in compliance tech, exploring registrations, trademarks, microsourcing, and more
+
+Documented the entire journey in a no-holds-barred Medium post
+
+Prevale taught me the most important lesson of all: building is not about hype — it's about humility, execution, and learning fast.
+
+We’re not done — just between versions.
+
+Onwards and Upwards 🚀</p>
             </div>
 
             {/* Inspera AS */}
