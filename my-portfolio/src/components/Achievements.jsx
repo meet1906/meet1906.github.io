@@ -7,34 +7,13 @@ export default function Achievements() {
           <div className="space-y-12">
             {/* Example Achievement 1 */}
             <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-6">
-              <h3 className="text-xl font-semibold">Best Project Award</h3>
-              <p className="text-gray-600">Tech Innovators Conference</p>
-              <p className="text-sm text-gray-500">2021</p>
-              <p className="mt-4 text-gray-700">
-                Awarded for leading the most innovative project at the Tech Innovators Conference 2021, which was recognized for its impact on the industry.
-              </p>
-            </div>
-  
-            {/* Example Achievement 2 */}
-            <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-6">
-              <h3 className="text-xl font-semibold">Certified Scrum Master (CSM)</h3>
-              <p className="text-gray-600">Scrum Alliance</p>
+              <h3 className="text-xl font-semibold">Best Paper Award</h3>
+              <p className="text-gray-600">INTERNATIONAL CONFERENCE ON ENGINEERING, TECHNOLOGY AND INNOVATION (ICETI) 2020, DUBAI, UAE</p>
               <p className="text-sm text-gray-500">2020</p>
               <p className="mt-4 text-gray-700">
-                Earned Scrum Master certification, leading cross-functional teams to success using Agile and Scrum methodologies.
+                Published Providing a Secure, Reliable and Decentralized Document Management Solution Using Blockchain by a Virtual Identity Card in World Academy of Science, Engineering and Technology journal (WASET) indexed in Google Scholar, Semantic Scholar, Zenodo, OSI, Base and World CAT 
               </p>
             </div>
-  
-            {/* Example Achievement 3 */}
-            <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-6">
-              <h3 className="text-xl font-semibold">Top 10 Business Leader</h3>
-              <p className="text-gray-600">Business Leaders Summit</p>
-              <p className="text-sm text-gray-500">2019</p>
-              <p className="mt-4 text-gray-700">
-                Recognized as one of the top 10 emerging business leaders in the industry for driving innovation and growth in the tech sector.
-              </p>
-            </div>
-  
           </div>
         </div>
       </section>
