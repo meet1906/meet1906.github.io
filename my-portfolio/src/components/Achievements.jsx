@@ -65,38 +65,39 @@ export default function Achievements() {
           ))}
         </div>
 
-        {/* Additional Recognition Section */}
+        {/* Additional Recognition Section
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-8">
             Other Notable Recognition
-          </h3>
+          </h3> */}
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="flex justify-center items-center gap-4">
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
               <div className="text-3xl mb-3">🚀</div>
               <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">500+ Features</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Successfully shipped across multiple projects</p>
-            </div>
+            </div> */}
             
-            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+            {/* <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
               <div className="text-3xl mb-3">🌍</div>
               <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">1000+ Organizations</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Using products I helped build</p>
-            </div>
+            </div> */}
             
-            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+            {/* <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
               <div className="text-3xl mb-3">💡</div>
               <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Community Leader</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Founded multiple tech communities</p>
-            </div>
+            </div> */}
             
-            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+            {/* <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
               <div className="text-3xl mb-3">📈</div>
               <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">1M+ NOK ARR</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Generated for client products</p>
-            </div>
-          </div>
-        </div>
+            </div> */}
+          {/* </div>
+        </div> */}
       </div>
     </section>
   );
