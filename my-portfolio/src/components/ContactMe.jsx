@@ -88,7 +88,7 @@ export default function ContactMe() {
                     name="name"
                     required
                     className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-300 text-gray-900 dark:text-gray-100"
-                    placeholder="John Doe"
+                    placeholder="Your name"
                   />
                 </div>
                 <div>
@@ -101,7 +101,7 @@ export default function ContactMe() {
                     name="email"
                     required
                     className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-300 text-gray-900 dark:text-gray-100"
-                    placeholder="john@example.com"
+                    placeholder="meet@example.com"
                   />
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function ContactMe() {
                   name="subject"
                   required
                   className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-300 text-gray-900 dark:text-gray-100"
-                  placeholder="Let's discuss..."
+                  placeholder="Let's discuss potential collaboration..."
                 />
               </div>
 
