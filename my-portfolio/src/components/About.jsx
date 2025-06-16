@@ -31,7 +31,7 @@ export default function About() {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 mt-8">
               <div className="text-center p-4 bg-white dark:bg-gray-700 rounded-lg shadow-md">
-                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">4+</div>
+                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">4.5+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-gray-700 rounded-lg shadow-md">
@@ -69,8 +69,8 @@ export default function About() {
                 
                 <div className="flex flex-wrap gap-3">
                   {[
-                    'JavaScript', 'React', 'Node.js', 'Python', 
-                    'SQL', 'Cloud Computing', 'AI/ML'
+                    'Notion', 'Jira', 'Devops', 'Linear', 
+                    'MySQL', 'Python', 'Git, Github /Version Control'
                   ].map((tech) => (
                     <span 
                       key={tech}
