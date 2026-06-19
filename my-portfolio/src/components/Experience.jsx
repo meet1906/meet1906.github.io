@@ -4,6 +4,7 @@ const experiences = [
   {
     title: 'Project Manager / Tech Harmony Catalyst',
     company: 'Artifik AS · Remote, India',
+    link: 'https://artifik.no',
     period: 'Jan 2021 – Present',
     description:
       'Spearheaded the evolution of Artifik\'s next-gen KGV & KAV platforms from a single-page prototype to comprehensive solutions used by 1,000+ organisations. Steered the product from v0 to v3.03 — growing ARR past 10M NOK and winning major procurement competitions in Norway. I own product planning and sprint logistics to ensure seamless, high-quality rollouts.',
@@ -16,6 +17,7 @@ const experiences = [
   {
     title: 'Chief Executive Officer',
     company: 'Comono India · Bengaluru, India',
+    link: 'https://comono.in',
     period: 'Jan 2021 – Present',
     description:
       'Lead the India division of Comono AS, a tech-forward consulting firm — driving innovation across legal, operations and finance while mentoring the team. Collaborate with enterprise products like Artifik and Inspera, cultivate client relationships, and engineer bespoke software solutions that deliver impactful outcomes across the Nordic region.',
@@ -28,6 +30,7 @@ const experiences = [
   {
     title: 'Co-founder',
     company: 'Prevale · Bengaluru, India',
+    link: 'https://prevale.in',
     period: 'May 2022 – April 2025',
     description:
       'Founded Prevale, an end-to-end accounting and compliance SaaS built to redesign compliance and accounting for Indian businesses. Bootstrapped from scratch to 4 versions, 15+ B2B clients and a 10+ person team. Directed product strategy and technical architecture, led marketing and business operations, and executed a pivot that lifted client satisfaction by 200%. Wound the venture down in 2025 due to scaling constraints.',
@@ -40,6 +43,7 @@ const experiences = [
   {
     title: 'Project Delivery Manager',
     company: 'Inspera AS · Remote, India',
+    link: 'https://inspera.com',
     period: 'Aug 2021 – June 2024',
     description:
       'Led the lifecycle of a custom data analytics engine used by large higher-education institutions to decode student assessments. Planned and directed sprints in JIRA — resolving most hotfixes in under 24 hours with under 20% sprint spillover. Managed a team of 18+ data engineers and led UAT with structured test scopes and cases in Zephyr.',
@@ -113,7 +117,21 @@ export default function Experience() {
                               </span>
                             )}
                           </div>
-                          <p className={`font-semibold ${c.hl}`}>{exp.company}</p>
+                          <p className={`font-semibold ${c.hl}`}>
+                            {exp.company}
+                            {exp.link && (
+                              <a
+                                href={exp.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="ml-2 inline-flex items-center gap-0.5 text-xs font-medium text-gray-400 hover:text-blue-500 transition-colors align-middle"
+                                aria-label={`Visit ${exp.company} website`}
+                              >
+                                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                {exp.link.replace('https://', '')}
+                              </a>
+                            )}
+                          </p>
                         </div>
                         <span className="text-sm text-gray-400 dark:text-gray-500 font-medium shrink-0 bg-white dark:bg-gray-700 px-3 py-1 rounded-full border border-gray-200 dark:border-gray-600">
                           {exp.period}
