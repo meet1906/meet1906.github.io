@@ -1,13 +1,13 @@
 export default function Education() {
   const educationData = [
     {
-      degree: "Bachelor of Technology (B.Tech)",
+      degree: "B.E. in Computer Science & Engineering",
       institution: "PES University ECC",
-      period: "2017 - 2021",
-      description: "Specialized in Computer Science. Achieved degree with distinction in my major and led multiple tech initiatives during the program.",
+      period: "Aug 2017 - Aug 2021",
+      description: "Graduated with Distinction — Grade 7.91/10. Co-founding member of multiple campus tech communities (3+ years), mentoring 1000+ students globally.",
       activities: [
-        "INGENIUS 2020", "ACM PESU-ECC", "DSC PESIT", "TECHWARTS", 
-        "MATHEMATICS CLUB", "MAAYA 2019", "INGENIUS 2019", "ICACI 2018"
+        "DSC PESU ECC", "ACM PESU ECC", "Techwarts", "inGenius 2020",
+        "Mathematics Club", "MAAYA 2019", "inGenius 2019", "ICACI 2018"
       ],
       coursework: [
         "Data Structures", "Design And Analysis of Algorithm", "Object Oriented Programming",

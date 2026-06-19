@@ -11,7 +11,7 @@ export default function Footer() {
               Meet Shah
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Tech Project Manager & Entrepreneur building impactful solutions across India and Europe.
+              Technical Delivery Manager & Entrepreneur building impactful solutions across India and the Nordics.
             </p>
             <div className="flex space-x-4">
               <a
@@ -91,8 +91,12 @@ export default function Footer() {
                 meetsuchitparinashah@gmail.com
               </p>
               <p className="text-gray-400">
+                <span className="font-medium">Phone:</span><br />
+                +91 93282 43515
+              </p>
+              <p className="text-gray-400">
                 <span className="font-medium">Location:</span><br />
-                India & Norway
+                Bengaluru, India
               </p>
               <p className="text-gray-400">
                 <span className="font-medium">Available for:</span><br />
