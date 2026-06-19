@@ -3,53 +3,28 @@ import FadeIn from './FadeIn';
 export default function Projects() {
   const projects = [
     {
-      title: "Artifik",
-      subtitle: "KGV & KAV Platform · Norway",
-      period: "2021 – Present",
-      description:
-        "A next-gen KGV & KAV platform now used by 1,000+ organisations across the Nordics. Grew from a single-page prototype (v0) to v3.03, generating 10M+ NOK in ARR and winning major procurement competitions in Norway. Led 42 production releases across 75+ sprints, shipping 500+ features.",
-      tags: ["SaaS", "Delivery", "Scrum", "Norway"],
-      links: [{ label: "Website", href: "https://artifik.no" }],
-      metrics: ["1,000+ orgs", "10M+ NOK ARR", "42 releases"],
-      color: "blue",
-      icon: "🏢",
-      current: true,
-    },
-    {
-      title: "Prevale",
-      subtitle: "Accounting & Compliance SaaS · India",
-      period: "May 2022 – April 2025",
-      description:
-        "Founded an end-to-end accounting and compliance ecosystem built to redesign compliance for Indian businesses. Bootstrapped from scratch to 4 versions, 15+ B2B clients and a 10+ person team. Directed product strategy, technical architecture, and business ops — executing a pivot that lifted client satisfaction by 200%.",
-      tags: ["Entrepreneurship", "Compliance Tech", "SaaS", "Bootstrapped"],
-      links: [{ label: "Website", href: "https://prevale.in" }],
-      metrics: ["4 versions", "15+ B2B clients", "+200% CSAT"],
-      color: "purple",
-      icon: "🔒",
-    },
-    {
       title: "Seekhogaadi",
       subtitle: "Driving School Finder · India",
       period: "2024",
       description:
-        "A discovery platform helping students across India find trusted driving schools near them. Built with Next.js and deployed on Vercel.",
+        "A discovery platform helping students across India find trusted driving schools near them. Started as a weekend idea — built with Next.js and shipped on Vercel.",
       tags: ["Next.js", "Vercel", "Tailwind CSS"],
       links: [{ label: "Live", href: "https://seekhogaadi.vercel.app" }],
-      metrics: ["Pan-India", "Next.js 16", "Vercel deploy"],
+      metrics: ["Pan-India", "Next.js 16", "Solo build"],
       color: "green",
       icon: "🚗",
     },
     {
-      title: "Blockchain Document Management",
-      subtitle: "Research Project · ICETI 2020, Dubai",
-      period: "2020",
+      title: "Hetu Weds Meetu",
+      subtitle: "Our Wedding Website · Personal",
+      period: "Self project",
       description:
-        "Published research on a secure, decentralised document management system using blockchain and virtual identity cards. Awarded Best Paper at ICETI 2020 and indexed in WASET, Google Scholar, and Semantic Scholar.",
-      tags: ["Blockchain", "Smart Contracts", "Research"],
-      links: [{ label: "Read Paper", href: "https://publications.waset.org/10011023/providing-a-secure-reliable-and-decentralized-document-management-solution-using-blockchain-by-a-virtual-identity-card" }],
-      metrics: ["Best Paper Award", "WASET indexed", "Google Scholar"],
-      color: "yellow",
-      icon: "📄",
+        "A little labour of love my partner and I built for our wedding — a single place where every guest could get a quick glance at our story, the schedule, venues, travel details, and everything they'd want to know about us and the celebration.",
+      tags: ["React", "Vercel", "Personal"],
+      links: [{ label: "Live", href: "https://hetuwedsmeetu.vercel.app" }],
+      metrics: ["Guest-facing", "All details in one place", "Built with love ❤️"],
+      color: "rose",
+      icon: "💍",
     },
   ];
 
@@ -72,6 +47,12 @@ export default function Projects() {
       bar: "from-green-500 to-emerald-500",
       metric: "text-green-600 dark:text-green-400",
     },
+    rose: {
+      badge: "bg-rose-100 dark:bg-rose-900 text-rose-800 dark:text-rose-200",
+      border: "hover:border-rose-400 dark:hover:border-rose-500",
+      bar: "from-rose-500 to-pink-500",
+      metric: "text-rose-600 dark:text-rose-400",
+    },
     yellow: {
       badge: "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200",
       border: "hover:border-yellow-400 dark:hover:border-yellow-500",
@@ -85,12 +66,13 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         <FadeIn>
           <div className="text-center mb-16">
+            <p className="text-sm font-semibold tracking-widest text-blue-500 uppercase mb-3">For the love of building</p>
             <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Projects
+              Passion Projects
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Products I've built, shipped, and scaled — from 0 to impact
+              Things I build on the side — scratching an itch, solving a problem, or just because it was fun.
             </p>
           </div>
         </FadeIn>
