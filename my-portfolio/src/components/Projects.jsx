@@ -15,6 +15,18 @@ export default function Projects() {
       icon: "🚗",
     },
     {
+      title: "Kalya Fitness World",
+      subtitle: "Gym Management System · Bengaluru",
+      period: "Built for a client",
+      description:
+        "Built for Kalya Fitness World, a gym in Jayanagar, at the owner's request — a full digital setup: a public website, a password-protected admin portal for members and subscriptions, a QR-based kiosk that verifies membership on entry in under a second, and a printable QR card generator. Runs on a Google Sheets + Apps Script backend on Cloudflare Pages.",
+      tags: ["Vanilla JS", "Google Apps Script", "Google Sheets", "Cloudflare Pages"],
+      links: [{ label: "Live", href: "https://kalia-gym.pages.dev" }],
+      metrics: ["Website + Admin + Kiosk", "QR entry & attendance", "Serverless"],
+      color: "blue",
+      icon: "🏋️",
+    },
+    {
       title: "Hetu Weds Meetu",
       subtitle: "Our Wedding Website · Personal",
       period: "Self project",

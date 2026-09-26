@@ -1,10 +1,10 @@
 import FadeIn from './FadeIn';
 
 const skillGroups = [
-  { title: 'Delivery & Product', icon: '📋', items: ['Agile / Scrum', 'Product Strategy', 'Product Requirements', 'Lifecycle Management', 'QA', 'UAT'] },
+  { title: 'Delivery & Project Management', icon: '📋', items: ['End-to-End Delivery', 'Release Management', 'Agile / Scrum', 'Sprint Planning', 'Requirements & PRDs', 'Product Strategy & Roadmaps', 'QA', 'UAT & Test Planning'] },
+  { title: 'Leadership', icon: '💬', items: ['Team Management', 'Stakeholder Management', 'Cross-Functional Leadership'] },
+  { title: 'Tools', icon: '🛠️', items: ['Jira', 'Zephyr', 'Confluence', 'Notion', 'Figma (Make)', 'Git & Version Control', 'MySQL (query debugging)'] },
   { title: 'AI', icon: '🤖', items: ['Claude (Cowork & Code)', 'Notion AI', 'Gemini (Apps Script · AI Studio)'] },
-  { title: 'Tools & Tech', icon: '🛠️', items: ['Jira', 'Notion', 'Figma (Make)', 'Power BI', 'Git & Version Control', 'MySQL'] },
-  { title: 'Soft Skills', icon: '💬', items: ['Communication', 'Cross-Functional Leadership', 'Stakeholder Management', 'Analytical Thinking', 'Product Pitch'] },
   { title: 'Languages', icon: '🌐', items: ['English', 'Hindi', 'Gujarati'] },
 ];
 
@@ -28,22 +28,22 @@ export default function About() {
         <div className="max-w-3xl mx-auto space-y-6 mb-20 text-center">
           <FadeIn>
             <p className="text-2xl sm:text-3xl font-semibold text-gray-800 dark:text-gray-100 leading-snug">
-              Dev turned tech project manager — and a{' '}
+              Dev turned{' '}
               <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-                tech harmony catalyst.
+                Technical Project Manager.
               </span>
             </p>
           </FadeIn>
 
           <FadeIn delay={100}>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              I founded <span className="font-semibold text-gray-800 dark:text-gray-200">Comono India</span> — a consulting company partnering with Nordic startups and scaleups like Artifik and Inspera. I own delivery end to end: planning, sprints, releases, and getting things across the line.
+              I work as the bridge between product, engineering and customer success. At <span className="font-semibold text-gray-800 dark:text-gray-200">Comono</span> I've spent nearly six years helping Nordic scaleups take products from early prototype to market leadership — managing high-stakes production releases and keeping technical work aligned with business strategy.
             </p>
           </FadeIn>
 
           <FadeIn delay={200}>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              CSE grad from <span className="font-semibold text-gray-800 dark:text-gray-200">PES University</span>. I've driven products from prototype to full-fledged companies, built internal tools for data analysis and managed the data team for global clients, alongside cofounding <span className="font-semibold text-gray-800 dark:text-gray-200">Prevale</span>, a compliance-tech startup. I build with modern tooling — including AI — but the constant is reliable, on-time delivery, while making sure it stays fun working together as a team :)
+              CSE grad from <span className="font-semibold text-gray-800 dark:text-gray-200">PES University</span>. Alongside my delivery work, I co-founded <span className="font-semibold text-gray-800 dark:text-gray-200">Prevale</span> with Comono's team — a compliance-tech venture that taught me more about building products than any course could. I use AI tools like Claude Code day to day — including to build this site — but the constant is reliable, on-time delivery, while making sure it stays fun working together as a team :)
             </p>
           </FadeIn>
 

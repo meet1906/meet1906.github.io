@@ -11,7 +11,7 @@ export default function Footer() {
               Meet Shah
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Technical Delivery Manager & Entrepreneur building impactful solutions across India and the Nordics.
+              Technical Project Manager building impactful solutions across India and the Nordics.
             </p>
             <div className="flex space-x-4">
               <a
@@ -107,9 +107,12 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800 pt-8 flex justify-center items-center">
+        <div className="border-t border-gray-800 pt-8 flex flex-col items-center gap-1">
           <p className="text-gray-400 text-sm">
             © {currentYear} Meet Shah. All rights reserved.
+          </p>
+          <p className="text-gray-500 text-xs">
+            Built with Claude Code.
           </p>
         </div>
       </div>

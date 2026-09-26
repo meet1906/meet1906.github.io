@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
 
-// Exports the Google Doc CV directly as a PDF
-const CV_URL = 'https://docs.google.com/document/d/1Xofriep6VPj5TZv2TXizvBIOGCKj3hpqDwAYAQxbp-c/export?format=pdf';
+// Latest CV PDF, served from public/ (add Meet_Shah_CV.pdf to the repo)
+const CV_URL = '/Meet_Shah_CV.pdf';
 
 const ROLES = [
-  'Technical Delivery Manager',
-  'Tech Harmony Catalyst',
-  'Project Manager',
+  'Technical Project Manager',
+  'Release Manager',
+  'Product Delivery Lead',
   'Entrepreneur',
   'Community Builder',
 ];
@@ -129,8 +129,8 @@ export default function Hero() {
 
         {/* Tagline */}
         <p className="text-base sm:text-lg text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-          5.5+ years taking products from prototype to market leadership — owning delivery
-          end to end for startups and scaleups across the Nordics, from Bengaluru.
+          Nearly 6 years taking Nordic SaaS products from prototype to market leadership —
+          owning releases, sprints and stakeholder alignment end to end, from Bengaluru.
         </p>
 
         {/* CTAs */}

@@ -1,57 +1,64 @@
 import FadeIn from './FadeIn';
 
-const experiences = [
+const company = {
+  title: 'Technical Project Manager & General Manager, Comono India',
+  company: 'Comono India · Bengaluru, India',
+  link: 'https://comono.in',
+  period: 'Jan 2021 – Present',
+  description:
+    'Comono India is the India subsidiary of Comono AS, an Oslo-based IT consultancy that builds and delivers software products for the European market. I cultivate Nordic client relationships and lead delivery of bespoke software solutions for enterprise-scale clients, including Artifik and Inspera.',
+  icon: '🏢',
+  color: 'blue',
+};
+
+const projects = [
   {
-    title: 'Project Manager / Tech Harmony Catalyst',
-    company: 'Artifik AS · Remote, India',
-    link: 'https://artifik.no',
+    name: 'Artifik — Digital Procurement Platform (KGV & KAV)',
     period: 'Jan 2021 – Present',
-    description:
-      'Spearheaded the evolution of Artifik\'s next-gen KGV & KAV platforms from a single-page prototype to comprehensive solutions used by 1,000+ organisations. Steered the product from v0 to v3.03 — growing ARR past 10M NOK and winning major procurement competitions in Norway. I own product planning and sprint logistics to ensure seamless, high-quality rollouts.',
-    tags: ['Delivery Management', 'Scrum', 'SaaS', 'Norway'],
-    current: true,
-    icon: '🏢',
     color: 'blue',
-    highlights: ['1,000+ organisations', '42 releases · 75+ sprints', '500+ features · 1500+ fixes', '10M+ NOK ARR'],
-  },
-  {
-    title: 'Chief Executive Officer',
-    company: 'Comono India · Bengaluru, India',
-    link: 'https://comono.in',
-    period: 'Jan 2021 – Present',
-    description:
-      'Lead the India division of Comono AS, a tech-forward consulting firm — driving innovation across legal, operations and finance while mentoring the team. Collaborate with enterprise products like Artifik and Inspera, cultivate client relationships, and engineer bespoke software solutions that deliver impactful outcomes across the Nordic region.',
-    tags: ['Leadership', 'Consulting', 'Operations', 'Nordic Markets'],
+    icon: '🛒',
     current: true,
-    icon: '🚀',
-    color: 'purple',
-    highlights: ['Nordic consulting', 'Team mentoring', 'Enterprise clients'],
+    highlights: ['1,000+ organisations', '67+ releases · 82+ sprints', '600+ features · 1,800+ fixes', '10M+ NOK ARR'],
+    tags: ['Release Management', 'Scrum', 'SaaS', 'Norway'],
+    bullets: [
+      'Spearheaded the evolution of the next-gen KGV and KAV platform from a single-page prototype to solutions used by 1,000+ organisations.',
+      'Delivered 600+ features and 1,800+ bug fixes across 67+ production releases and 82+ sprints, taking the product from v1.0 to v3.40.',
+      'Led a 15-member engineering team, acting as the bridge between product, engineering and customer success.',
+      'Serve as Release Manager with final production go/no-go authority, owning incident management and SLAs to keep rollouts stable.',
+      'Helped scale the platform past 10M NOK ARR, supporting wins in major Norwegian public procurement competitions.',
+      'Directed product planning, backlog prioritisation and sprint logistics. Built prototypes and contributed code hands-on using AI tools (Claude Code).',
+    ],
   },
   {
-    title: 'Co-founder',
-    company: 'Prevale · Bengaluru, India',
-    link: 'https://prevale.in',
-    period: 'May 2022 – April 2025',
-    description:
-      'Founded Prevale, an end-to-end accounting and compliance SaaS built to redesign compliance and accounting for Indian businesses. Bootstrapped from scratch to 4 versions, 15+ B2B clients and a 10+ person team. Directed product strategy and technical architecture, led marketing and business operations, and executed a pivot that lifted client satisfaction by 200%. Wound the venture down in 2025 due to scaling constraints.',
-    tags: ['Entrepreneurship', 'Compliance Tech', 'SaaS', 'Bootstrapped'],
-    current: false,
-    icon: '🔒',
-    color: 'green',
-    highlights: ['4 versions', '15+ B2B clients', '10+ team', '+200% CSAT'],
-  },
-  {
-    title: 'Project Delivery Manager',
-    company: 'Inspera AS · Remote, India',
-    link: 'https://inspera.com',
-    period: 'Aug 2021 – June 2024',
-    description:
-      'Led the lifecycle of a custom data analytics engine used by large higher-education institutions to decode student assessments. Planned and directed sprints in JIRA — resolving most hotfixes in under 24 hours with under 20% sprint spillover. Managed a team of 18+ data engineers and led UAT with structured test scopes and cases in Zephyr.',
-    tags: ['Data Analytics', 'Higher Education', 'JIRA', 'UAT'],
-    current: false,
-    icon: '📊',
+    name: 'Inspera — Assessment Data Analytics Engine',
+    period: 'Aug 2021 – Jun 2024',
     color: 'orange',
-    highlights: ['18+ engineers managed', 'Hotfix < 24 hrs', '< 20% spillover'],
+    icon: '📊',
+    current: false,
+    highlights: ['18+ engineers managed', 'Hotfix < 24 hrs', '< 20% spillover', 'Zero SLA violations'],
+    tags: ['Data Analytics', 'Higher Education', 'Jira', 'UAT'],
+    bullets: [
+      'Led delivery across the full lifecycle of a custom data analytics engine used by large-scale higher-education institutions to decode student assessments.',
+      'Planned and ran sprints in Jira, resolving most hotfixes within 24 hours, keeping sprint spillover below 20%, and maintaining zero SLA violations throughout the engagement.',
+      'Managed a team of 18+ data engineers and led UAT by defining test scopes and test cases in Zephyr.',
+    ],
+  },
+  {
+    name: 'Prevale — Accounting & Compliance SaaS (Co-Founder)',
+    period: 'May 2022 – Apr 2025',
+    color: 'green',
+    icon: '🔒',
+    current: false,
+    highlights: ['4 versions', '15+ B2B clients', '600+ founders interviewed', '+200% CSAT'],
+    tags: ['Entrepreneurship', 'Compliance Tech', 'SaaS', 'Bootstrapped'],
+    bullets: [
+      "Co-founded, with a chartered accountant and Comono Norway's team, a SaaS platform connecting accountants, admin staff and business owners through collaborative compliance workflows. Shipped 4 versions and served 15+ B2B clients.",
+      'Interviewed 600+ founders to validate the problem, repositioning the product from a Tally data-export tool into a three-sided task-management platform.',
+      'Led product iterations and roadmap decisions, including a customisable workflow builder that let accountants design their own processes. Executed a pivot that raised client satisfaction scores by 200%.',
+      'Built and coordinated a 10-member team (7 engineers), and led marketing and business operations.',
+      'Paused operations in May 2025, when serving accountants’ and clients’ conflicting needs would have required funding beyond available resources.',
+    ],
+    link: { label: 'Read the story →', href: 'https://meetsuchitparinashah.medium.com/prevale-my-tale-of-failed-versions-and-great-learnings-dc060cc16a3b' },
   },
 ];
 
@@ -64,6 +71,7 @@ const colorMap = {
 };
 
 export default function Experience() {
+  const c = colorMap[company.color];
   return (
     <section id="experience" className="py-24 px-4 bg-white dark:bg-gray-900">
       <div className="max-w-4xl mx-auto">
@@ -75,7 +83,7 @@ export default function Experience() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-4" />
             <p className="text-lg text-gray-500 dark:text-gray-400">
-              My journey through tech, startups, and building impactful solutions
+              Nearly 6 years leading delivery for Nordic SaaS products
             </p>
           </div>
         </FadeIn>
@@ -83,89 +91,132 @@ export default function Experience() {
         {/* Timeline */}
         <div className="relative">
           {/* Vertical line */}
-          <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 via-purple-400 to-red-400 opacity-30 hidden sm:block" />
+          <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 via-purple-400 to-green-400 opacity-30 hidden sm:block" />
 
-          <div className="space-y-10">
-            {experiences.map((exp, index) => {
-              const c = colorMap[exp.color];
-              return (
-                <FadeIn key={index} delay={index * 80} direction="left">
-                  <div className="relative flex gap-6 sm:gap-8">
-                    {/* Timeline dot */}
-                    <div className="hidden sm:flex flex-col items-center shrink-0">
-                      <div className={`w-12 h-12 rounded-full ${c.dot} ring-4 ${c.ring} flex items-center justify-center text-white text-lg shadow-lg z-10`}>
-                        {exp.icon}
-                      </div>
+          <FadeIn direction="left">
+            <div className="relative flex gap-6 sm:gap-8">
+              {/* Timeline dot */}
+              <div className="hidden sm:flex flex-col items-center shrink-0">
+                <div className={`w-12 h-12 rounded-full ${c.dot} ring-4 ${c.ring} flex items-center justify-center text-white text-lg shadow-lg z-10`}>
+                  {company.icon}
+                </div>
+              </div>
+
+              {/* Company card */}
+              <div className="group flex-1 bg-gray-50 dark:bg-gray-800 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 hover:border-transparent relative overflow-hidden">
+                {/* Subtle top accent bar */}
+                <div className={`absolute top-0 left-0 right-0 h-0.5 ${c.bar} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left`} />
+
+                {/* Header */}
+                <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
+                  <div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="sm:hidden text-xl">{company.icon}</span>
+                      <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
+                        {company.title}
+                      </h3>
+                      <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold rounded-full">
+                        Now
+                      </span>
                     </div>
+                    <p className={`font-semibold ${c.hl}`}>
+                      {company.company}
+                      <a
+                        href={company.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-2 inline-flex items-center gap-0.5 text-xs font-medium text-gray-400 hover:text-blue-500 transition-colors align-middle"
+                        aria-label={`Visit ${company.company} website`}
+                      >
+                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                        {company.link.replace('https://', '')}
+                      </a>
+                    </p>
+                  </div>
+                  <span className="text-sm text-gray-400 dark:text-gray-500 font-medium shrink-0 bg-white dark:bg-gray-700 px-3 py-1 rounded-full border border-gray-200 dark:border-gray-600">
+                    {company.period}
+                  </span>
+                </div>
 
-                    {/* Card */}
-                    <div className="group flex-1 bg-gray-50 dark:bg-gray-800 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 hover:border-transparent relative overflow-hidden">
-                      {/* Subtle top accent bar */}
-                      <div className={`absolute top-0 left-0 right-0 h-0.5 ${c.bar} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left`} />
+                {/* Company description */}
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 text-sm sm:text-base">
+                  {company.description}
+                </p>
 
-                      {/* Header */}
-                      <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
-                        <div>
-                          <div className="flex items-center gap-2 mb-1">
-                            <span className="sm:hidden text-xl">{exp.icon}</span>
-                            <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-                              {exp.title}
-                            </h3>
-                            {exp.current && (
-                              <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-semibold rounded-full">
+                {/* Nested projects */}
+                <div className="space-y-5">
+                  {projects.map((p, pi) => {
+                    const pc = colorMap[p.color];
+                    return (
+                      <div
+                        key={pi}
+                        className={`relative bg-white dark:bg-gray-900 rounded-xl p-5 border border-gray-200 dark:border-gray-700 border-l-4`}
+                        style={{ borderLeftColor: 'transparent' }}
+                      >
+                        <div className={`absolute left-0 top-0 bottom-0 w-1 rounded-l-xl ${pc.bar}`} />
+
+                        {/* Project header */}
+                        <div className="flex flex-wrap items-start justify-between gap-2 mb-1 pl-1">
+                          <div className="flex items-center gap-2">
+                            <span className="text-lg">{p.icon}</span>
+                            <h4 className="text-base sm:text-lg font-bold text-gray-800 dark:text-gray-100">
+                              {p.name}
+                            </h4>
+                            {p.current && (
+                              <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-[10px] font-semibold rounded-full">
                                 Now
                               </span>
                             )}
                           </div>
-                          <p className={`font-semibold ${c.hl}`}>
-                            {exp.company}
-                            {exp.link && (
-                              <a
-                                href={exp.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="ml-2 inline-flex items-center gap-0.5 text-xs font-medium text-gray-400 hover:text-blue-500 transition-colors align-middle"
-                                aria-label={`Visit ${exp.company} website`}
-                              >
-                                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
-                                {exp.link.replace('https://', '')}
-                              </a>
-                            )}
-                          </p>
+                          <span className="text-xs text-gray-400 dark:text-gray-500 font-medium shrink-0">
+                            {p.period}
+                          </span>
                         </div>
-                        <span className="text-sm text-gray-400 dark:text-gray-500 font-medium shrink-0 bg-white dark:bg-gray-700 px-3 py-1 rounded-full border border-gray-200 dark:border-gray-600">
-                          {exp.period}
-                        </span>
-                      </div>
 
-                      {/* Description */}
-                      <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-5 text-sm sm:text-base">
-                        {exp.description}
-                      </p>
+                        {/* Bullets */}
+                        <ul className="mt-3 mb-4 space-y-1.5 pl-1">
+                          {p.bullets.map((b, bi) => (
+                            <li key={bi} className="flex gap-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                              <span className={`mt-1.5 shrink-0 w-1.5 h-1.5 rounded-full ${pc.dot}`} />
+                              <span>{b}</span>
+                            </li>
+                          ))}
+                        </ul>
 
-                      {/* Highlights */}
-                      <div className="flex flex-wrap gap-2 mb-4">
-                        {exp.highlights.map((h, i) => (
-                          <span key={i} className={`text-xs font-semibold px-3 py-1 rounded-full ${c.tag}`}>
-                            ✦ {h}
-                          </span>
-                        ))}
-                      </div>
+                        {/* Highlights */}
+                        <div className="flex flex-wrap gap-2 mb-3 pl-1">
+                          {p.highlights.map((h, i) => (
+                            <span key={i} className={`text-xs font-semibold px-3 py-1 rounded-full ${pc.tag}`}>
+                              ✦ {h}
+                            </span>
+                          ))}
+                        </div>
 
-                      {/* Tags */}
-                      <div className="flex flex-wrap gap-2">
-                        {exp.tags.map((tag, i) => (
-                          <span key={i} className="text-xs px-2.5 py-1 bg-white dark:bg-gray-700 text-gray-500 dark:text-gray-400 rounded-md border border-gray-200 dark:border-gray-600 font-medium">
-                            {tag}
-                          </span>
-                        ))}
+                        {/* Tags + link */}
+                        <div className="flex flex-wrap items-center gap-2 pl-1">
+                          {p.tags.map((tag, i) => (
+                            <span key={i} className="text-xs px-2.5 py-1 bg-gray-50 dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-md border border-gray-200 dark:border-gray-700 font-medium">
+                              {tag}
+                            </span>
+                          ))}
+                          {p.link && (
+                            <a
+                              href={p.link.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className={`text-xs font-semibold ${pc.hl} hover:underline ml-auto`}
+                            >
+                              {p.link.label}
+                            </a>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </FadeIn>
-              );
-            })}
-          </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </div>
     </section>
