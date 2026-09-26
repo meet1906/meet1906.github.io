@@ -107,12 +107,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800 pt-8 flex flex-col items-center gap-1">
+        <div className="border-t border-gray-800 pt-8 flex justify-center items-center">
           <p className="text-gray-400 text-sm">
             © {currentYear} Meet Shah. All rights reserved.
-          </p>
-          <p className="text-gray-500 text-xs">
-            Built with Claude Code.
           </p>
         </div>
       </div>
