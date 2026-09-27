@@ -14,6 +14,7 @@ const company = {
 const projects = [
   {
     name: 'Artifik — Digital Procurement Platform (KGV & KAV)',
+    url: 'https://artifik.no/',
     period: 'Jan 2021 – Present',
     color: 'blue',
     icon: '🛒',
@@ -31,6 +32,7 @@ const projects = [
   },
   {
     name: 'Inspera — Assessment Data Analytics Engine',
+    url: 'https://inspera.com/',
     period: 'Aug 2021 – Jun 2024',
     color: 'orange',
     icon: '📊',
@@ -162,6 +164,18 @@ export default function Experience() {
                             <h4 className="text-base sm:text-lg font-bold text-gray-800 dark:text-gray-100">
                               {p.name}
                             </h4>
+                            {p.url && (
+                              <a
+                                href={p.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-0.5 text-xs font-medium text-gray-400 hover:text-blue-500 transition-colors"
+                                aria-label={`Visit ${p.name} website`}
+                              >
+                                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                {p.url.replace('https://', '').replace(/\/$/, '')}
+                              </a>
+                            )}
                             {p.current && (
                               <span className="px-2 py-0.5 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-[10px] font-semibold rounded-full">
                                 Now

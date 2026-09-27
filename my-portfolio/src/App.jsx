@@ -31,8 +31,8 @@ function App() {
       <Navbar darkMode={darkMode} toggleDark={toggleDark} />
       <Hero />
       <FadeIn><About /></FadeIn>
-      <AIStack />
       <FadeIn><Experience /></FadeIn>
+      <AIStack />
       <FadeIn><Projects /></FadeIn>
       <FadeIn><Education /></FadeIn>
       <FadeIn><Achievements /></FadeIn>

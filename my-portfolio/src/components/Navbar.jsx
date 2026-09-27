@@ -6,8 +6,8 @@ export default function Navbar({ darkMode, toggleDark }) {
 
   const navItems = [
     { name: "About", to: "about" },
-    { name: "AI Stack", to: "ai-stack" },
     { name: "Experience", to: "experience" },
+    { name: "AI Stack", to: "ai-stack" },
     { name: "Projects", to: "projects" },
     { name: "Education", to: "education" },
     { name: "Community", to: "community-work" },
